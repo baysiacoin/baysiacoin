@@ -1,0 +1,182 @@
+body{background: #fff;}
+td label.error {
+    display: inline-block;
+    margin: 6px 0 0;
+}
+label.error {
+    color: #990000;
+    display: block;
+    margin-bottom: 10px;
+}
+#container, #footer-content {
+width: 960px;
+margin: 0 auto;
+}
+.blue{color: #006dcc;}
+/*header*/
+#header-content {
+	display: inline-block;
+	width: 100%;
+	color: #fff;	
+	position: fixed;
+	top: 0;
+	background-color: #000000;
+	background: -webkit-gradient(linear, left top, left bottom, from(#000000), to(#000000));
+	background: -webkit-linear-gradient(top, #000000, #000000);
+	background: -moz-linear-gradient(top, #000000, #000000);
+	background: -ms-linear-gradient(top, #000000, #000000);
+	background: -o-linear-gradient(top, #000000, #000000);
+	background: linear-gradient(top, #000000, #000000);
+	z-index: 100;
+}
+.sf-menu a{
+	color: #fff;
+	border:0;
+}
+.sf-menu a:hover{color: #fff; text-decoration: none;}
+#header-content .sf-menu li, #header-content .sf-menu ul li, #header-content .sf-menu ul ul li {
+	background-color: #000000;
+	background: -webkit-gradient(linear, left top, left bottom, from(#000000), to(#000000));
+	background: -webkit-linear-gradient(top, #000000, #000000);
+	background: -moz-linear-gradient(top, #000000, #000000);
+	background: -ms-linear-gradient(top, #000000, #000000);
+	background: -o-linear-gradient(top, #000000, #000000);
+	background: linear-gradient(top, #000000, #000000);
+}
+#header-content .sf-menu li:hover,
+#header-content .sf-menu li.sfHover{background:#098FCE;}
+#header-content .sf-menu{margin-bottom: 0;}
+
+/*Footer*/
+#footer-content {
+	display: inline-block;
+	margin: 0 auto;
+	text-align: left;
+}
+
+#footer {
+text-align: center;
+padding: 10px 0;
+border-top: 1px solid #ccc;
+}
+/*container*/
+#container {
+	margin-top: 50px;
+}
+	.form-horizontal .control-label{text-align: left;}
+	#container .table-striped th{background:#EBEBEB;text-align: center;vertical-align: center;}
+    #container .table-striped td{text-align: center;vertical-align: center;}
+	.form-group {
+	margin-bottom: 10px;
+}
+textarea{width:auto;}
+#messages .success{color: #468847;}
+#messages .error{color: #b94a48;}
+.status{font-weight:bold; color: #006dcc;}
+div.filter-time {
+	margin-bottom: 10px;
+}
+div.filter-time > label{
+	width: 10%;
+	float: left;
+}
+i.icon-remove.icon-white.user_removed {
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	background-color: #960707;
+}
+.edit_page span {
+    background-color: #006dcc;
+    background-image: linear-gradient(to bottom, #0088cc, #0044cc);
+    background-repeat: repeat-x;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    color: #ffffff;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	border-image: none;
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 0;
+    padding: 4px 12px;
+    text-align: center;
+    vertical-align: middle;
+	font-weight: normal;
+} 
+[class^="icon-"], [class*=" icon-"] {
+    background-image: url("images/glyphicons-halflings.png");
+    background-position: 14px 14px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 14px;
+    line-height: 14px;
+    vertical-align: text-top;
+    width: 14px;
+}
+.icon-white, .nav-pills > .active > a > [class^="icon-"], .nav-pills > .active > a > [class*=" icon-"], .nav-list > .active > a > [class^="icon-"], .nav-list > .active > a > [class*=" icon-"], .navbar-inverse .nav > .active > a > [class^="icon-"], .navbar-inverse .nav > .active > a > [class*=" icon-"], .dropdown-menu > li > a:hover > [class^="icon-"], .dropdown-menu > li > a:focus > [class^="icon-"], .dropdown-menu > li > a:hover > [class*=" icon-"], .dropdown-menu > li > a:focus > [class*=" icon-"], .dropdown-menu > .active > a > [class^="icon-"], .dropdown-menu > .active > a > [class*=" icon-"], .dropdown-submenu:hover > a > [class^="icon-"], .dropdown-submenu:focus > a > [class^="icon-"], .dropdown-submenu:hover > a > [class*=" icon-"], .dropdown-submenu:focus > a > [class*=" icon-"] {
+    background-image: url("images/glyphicons-halflings-white.png");
+}
+.icon-home {
+    background-position: 0 -24px;
+}
+.pagination ul {
+    border-radius: 4px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    display: inline-block;
+    margin-bottom: 0;
+    margin-left: 0;
+	padding: 0;
+}
+.pagination ul > li {
+    display: inline;
+}
+.pagination-right {
+    text-align: right;
+	display: block;
+}
+.pagination {
+    margin: 20px 0;
+}
+.pagination ul > li > a, .pagination ul > li > span {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+	border-color:none;
+    background-color: #ffffff;
+    border-color: #dddddd;
+    border-image: none;
+    border-style: solid;
+    border-width: 1px 1px 1px 0;
+    float: left;
+    line-height: 20px;
+    padding: 4px 12px;
+    text-decoration: none;
+}
+.pagination ul > li > a:hover, .pagination ul > li > a:focus, .pagination ul > .active > a, .pagination ul > .active > span {
+    background-color: #f5f5f5;
+}
+.pagination ul > .active > a, .pagination ul > .active > span {
+    color: #999999;
+    cursor: default;
+}
+.pagination ul > li:first-child > a, .pagination ul > li:first-child > span {
+    border-bottom-left-radius: 4px;
+    border-left-width: 1px;
+    border-top-left-radius: 4px;
+}
+
+.hr-margin {
+    margin:10px;
+    border:none;
+}
+.hr-margin-line {
+    margin-bottom:10px;
+    margin-top:10px;
+    line-height:1px;
+}
