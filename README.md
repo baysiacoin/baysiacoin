@@ -7,7 +7,7 @@ A front-end for baysia trading system
 1. First you need to install vendor files
 
     $ cd baysiacoin-app    
-    $ composer update    
+    $ composer install    
 
 2. Copy 'baysiacoin-app/env.example' to '.env' and set your own db and mail information
 
